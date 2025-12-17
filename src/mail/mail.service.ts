@@ -44,7 +44,7 @@ export class MailService {
         subject: locale === 'vi' ? 'Đặt lại mật khẩu' : 'Reset password',
         template: 'change-password',
         context: {
-          url: `http://${this.configService.get<string>('FRONT_END_URL')}`,
+          url: `${this.configService.get<string>('FRONT_END_URL')}`,
           email: email,
           localeVietnam: locale === 'vi',
           passwordToken,
