@@ -196,7 +196,11 @@ export class AuthService {
 
   logout = async (response: Response, user: IUser) => {
     await this.userService.updateUserToken('', user.id);
-    response.clearCookie('refresh_token');
+    response.clearCookie('refresh_token', {
+      httpOnly: true,
+      secure: true,
+      sameSite: 'none',
+    });
     return 'ok';
   };
 }
