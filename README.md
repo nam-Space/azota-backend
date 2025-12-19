@@ -74,6 +74,12 @@ Controller  →  Service  →  Repository  →  Database
 - Guard: bảo vệ route, phân quyền
 - Entity/Model: ánh xạ database
 
+### Cơ sở dữ liệu
+<img width="1207" height="937" alt="image" src="https://github.com/user-attachments/assets/9e9ce152-ea17-411b-9e3a-d9f3ff730075" />
+
+### Phân quyền
+<img width="1005" height="532" alt="image" src="https://github.com/user-attachments/assets/1d2f6546-bfe3-4a9a-b3e9-3fc935355d02" />
+
 ---
 
 ## 📂 Cấu trúc thư mục chi tiết
